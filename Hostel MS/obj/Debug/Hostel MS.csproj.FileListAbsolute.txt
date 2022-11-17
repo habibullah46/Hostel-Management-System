@@ -1,0 +1,13 @@
+C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\bin\Debug\Hostel MS.exe.config
+C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\bin\Debug\Hostel MS.exe
+C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\bin\Debug\Hostel MS.pdb
+C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Hostel MS.csproj.AssemblyReference.cache
+C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Hostel MS.csproj.SuggestedBindingRedirects.cache
+C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Hostel_MS.Properties.Resources.resources
+C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Hostel MS.csproj.GenerateResource.cache
+C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Hostel MS.csproj.CoreCompileInputs.cache
+C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Hostel MS.exe
+C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Hostel MS.pdb
+C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Hostel_MS.Student_Registration.resources
+C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Hostel_MS.Template.resources
+C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Hostel_MS.Room.resources
