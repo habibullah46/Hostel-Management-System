@@ -16,5 +16,10 @@ namespace Hostel_MS
         {
             InitializeComponent();
         }
+
+        private void Assign_Room_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

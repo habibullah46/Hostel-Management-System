@@ -11,3 +11,8 @@ C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Host
 C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Hostel_MS.Student_Registration.resources
 C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Hostel_MS.Template.resources
 C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Hostel_MS.Room.resources
+C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Hostel_MS.Assign_Room.resources
+C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Hostel_MS.Main.resources
+C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Hostel_MS.Login.resources
+C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Hostel_MS.Register_New_Staff.resources
+C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Hostel_MS.Visitor_Entry.resources
