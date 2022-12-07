@@ -20,7 +20,7 @@ namespace Hostel_MS
 
         private void registerStudentToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Student_Registration student = new Student_Registration();
+            tbl_Student_Registration student = new tbl_Student_Registration();
             student.MdiParent = this;
             student.Show();
         }

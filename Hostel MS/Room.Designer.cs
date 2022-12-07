@@ -33,19 +33,19 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txt_Rnumber = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_floor = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txt_perSeatRent = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.cbm_type = new System.Windows.Forms.ComboBox();
+            this.cbm_AttachWashroom = new System.Windows.Forms.ComboBox();
+            this.btn_save = new System.Windows.Forms.Button();
+            this.txt_Availableseat = new System.Windows.Forms.TextBox();
+            this.lable8 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,7 +53,7 @@
             // 
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.Location = new System.Drawing.Point(250, 516);
+            this.button2.Location = new System.Drawing.Point(245, 516);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(159, 64);
             this.button2.TabIndex = 11;
@@ -90,138 +90,150 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Room";
             // 
-            // textBox2
+            // txt_Rnumber
             // 
-            this.textBox2.Location = new System.Drawing.Point(205, 200);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(223, 26);
-            this.textBox2.TabIndex = 16;
+            this.txt_Rnumber.Location = new System.Drawing.Point(209, 165);
+            this.txt_Rnumber.Name = "txt_Rnumber";
+            this.txt_Rnumber.Size = new System.Drawing.Size(223, 26);
+            this.txt_Rnumber.TabIndex = 16;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(32, 200);
+            this.label3.Location = new System.Drawing.Point(36, 165);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(76, 20);
             this.label3.TabIndex = 15;
             this.label3.Text = "Number:";
             // 
-            // textBox1
+            // txt_floor
             // 
-            this.textBox1.Location = new System.Drawing.Point(205, 254);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(223, 26);
-            this.textBox1.TabIndex = 18;
+            this.txt_floor.Location = new System.Drawing.Point(209, 219);
+            this.txt_floor.Name = "txt_floor";
+            this.txt_floor.Size = new System.Drawing.Size(223, 26);
+            this.txt_floor.TabIndex = 18;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(32, 254);
+            this.label2.Location = new System.Drawing.Point(36, 219);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(55, 20);
             this.label2.TabIndex = 17;
             this.label2.Text = "Floor:";
             // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(205, 307);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(223, 26);
-            this.textBox3.TabIndex = 20;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(32, 307);
+            this.label4.Location = new System.Drawing.Point(36, 272);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(52, 20);
             this.label4.TabIndex = 19;
             this.label4.Text = "Type:";
             // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(205, 359);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(223, 26);
-            this.textBox4.TabIndex = 22;
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(32, 359);
+            this.label5.Location = new System.Drawing.Point(36, 324);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(157, 20);
             this.label5.TabIndex = 21;
             this.label5.Text = "Attach Washroom:";
             // 
-            // textBox5
+            // txt_perSeatRent
             // 
-            this.textBox5.Location = new System.Drawing.Point(205, 406);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(223, 26);
-            this.textBox5.TabIndex = 24;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(32, 406);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(136, 20);
-            this.label6.TabIndex = 23;
-            this.label6.Text = "available Seats:";
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(205, 465);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(223, 26);
-            this.textBox6.TabIndex = 26;
+            this.txt_perSeatRent.Location = new System.Drawing.Point(209, 385);
+            this.txt_perSeatRent.Name = "txt_perSeatRent";
+            this.txt_perSeatRent.Size = new System.Drawing.Size(223, 26);
+            this.txt_perSeatRent.TabIndex = 26;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(32, 465);
+            this.label7.Location = new System.Drawing.Point(36, 391);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(128, 20);
             this.label7.TabIndex = 25;
             this.label7.Text = "Per Seat Rent:";
             // 
-            // button1
+            // cbm_type
             // 
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.ImageKey = "(none)";
-            this.button1.Location = new System.Drawing.Point(47, 516);
-            this.button1.Name = "button1";
-            this.button1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.button1.Size = new System.Drawing.Size(149, 64);
-            this.button1.TabIndex = 27;
-            this.button1.Text = "Save";
-            this.button1.UseVisualStyleBackColor = true;
+            this.cbm_type.FormattingEnabled = true;
+            this.cbm_type.Items.AddRange(new object[] {
+            "1Bed",
+            "2Bed",
+            "3Bed",
+            "4Bed",
+            "5Bed"});
+            this.cbm_type.Location = new System.Drawing.Point(209, 263);
+            this.cbm_type.Name = "cbm_type";
+            this.cbm_type.Size = new System.Drawing.Size(223, 28);
+            this.cbm_type.TabIndex = 28;
+            // 
+            // cbm_AttachWashroom
+            // 
+            this.cbm_AttachWashroom.FormattingEnabled = true;
+            this.cbm_AttachWashroom.Items.AddRange(new object[] {
+            "Yes",
+            "No"});
+            this.cbm_AttachWashroom.Location = new System.Drawing.Point(209, 324);
+            this.cbm_AttachWashroom.Name = "cbm_AttachWashroom";
+            this.cbm_AttachWashroom.Size = new System.Drawing.Size(223, 28);
+            this.cbm_AttachWashroom.TabIndex = 29;
+            // 
+            // btn_save
+            // 
+            this.btn_save.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_save.ImageKey = "(none)";
+            this.btn_save.Location = new System.Drawing.Point(43, 516);
+            this.btn_save.Name = "btn_save";
+            this.btn_save.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.btn_save.Size = new System.Drawing.Size(149, 64);
+            this.btn_save.TabIndex = 30;
+            this.btn_save.Text = "Save";
+            this.btn_save.UseVisualStyleBackColor = true;
+            this.btn_save.Click += new System.EventHandler(this.btn_save_Click);
+            // 
+            // txt_Availableseat
+            // 
+            this.txt_Availableseat.AcceptsReturn = true;
+            this.txt_Availableseat.Location = new System.Drawing.Point(209, 441);
+            this.txt_Availableseat.Name = "txt_Availableseat";
+            this.txt_Availableseat.Size = new System.Drawing.Size(223, 26);
+            this.txt_Availableseat.TabIndex = 32;
+            // 
+            // lable8
+            // 
+            this.lable8.AutoSize = true;
+            this.lable8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lable8.Location = new System.Drawing.Point(36, 441);
+            this.lable8.Name = "lable8";
+            this.lable8.Size = new System.Drawing.Size(124, 20);
+            this.lable8.TabIndex = 31;
+            this.lable8.Text = "Available Seat";
             // 
             // Room
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(506, 674);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.txt_Availableseat);
+            this.Controls.Add(this.lable8);
+            this.Controls.Add(this.btn_save);
+            this.Controls.Add(this.cbm_AttachWashroom);
+            this.Controls.Add(this.cbm_type);
+            this.Controls.Add(this.txt_perSeatRent);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txt_floor);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txt_Rnumber);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.panel2);
@@ -243,18 +255,18 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txt_Rnumber;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_floor;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txt_perSeatRent;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ComboBox cbm_type;
+        private System.Windows.Forms.ComboBox cbm_AttachWashroom;
+        private System.Windows.Forms.Button btn_save;
+        private System.Windows.Forms.TextBox txt_Availableseat;
+        private System.Windows.Forms.Label lable8;
     }
 }

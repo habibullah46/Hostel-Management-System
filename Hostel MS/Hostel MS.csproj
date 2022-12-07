@@ -34,6 +34,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -57,6 +59,58 @@
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\Message box.cs" />
+    <Compile Include="helpers\SqlData.cs" />
+    <Compile Include="HostelDbDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HostelDbDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HostelDbDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HostelDbDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HostelDbDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HostelDbDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HostelDbDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HostelDbDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HostelDbDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HostelDbDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HostelDbDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HostelDbDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HostelDbDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HostelDbDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HostelDbDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HostelDbDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HostelDbDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HostelDbDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HostelDbDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HostelDbDataSet9.xsd</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -83,6 +137,16 @@
     </Compile>
     <Compile Include="Room.Designer.cs">
       <DependentUpon>Room.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Roomnumberdataset.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Roomnumberdataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RoomNumberDataset1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RoomNumberDataset1.xsd</DependentUpon>
     </Compile>
     <Compile Include="Student Registration.cs">
       <SubType>Form</SubType>
@@ -135,6 +199,116 @@
     <EmbeddedResource Include="Visitor Entry.resx">
       <DependentUpon>Visitor Entry.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="HostelDbDataSet.xsc">
+      <DependentUpon>HostelDbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HostelDbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HostelDbDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HostelDbDataSet.xss">
+      <DependentUpon>HostelDbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HostelDbDataSet1.xsc">
+      <DependentUpon>HostelDbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="HostelDbDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HostelDbDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HostelDbDataSet1.xss">
+      <DependentUpon>HostelDbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="HostelDbDataSet2.xsc">
+      <DependentUpon>HostelDbDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="HostelDbDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HostelDbDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HostelDbDataSet2.xss">
+      <DependentUpon>HostelDbDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="HostelDbDataSet3.xsc">
+      <DependentUpon>HostelDbDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="HostelDbDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HostelDbDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HostelDbDataSet3.xss">
+      <DependentUpon>HostelDbDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="HostelDbDataSet4.xsc">
+      <DependentUpon>HostelDbDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="HostelDbDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HostelDbDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HostelDbDataSet4.xss">
+      <DependentUpon>HostelDbDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="HostelDbDataSet5.xsc">
+      <DependentUpon>HostelDbDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="HostelDbDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HostelDbDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HostelDbDataSet5.xss">
+      <DependentUpon>HostelDbDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="HostelDbDataSet6.xsc">
+      <DependentUpon>HostelDbDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="HostelDbDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HostelDbDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HostelDbDataSet6.xss">
+      <DependentUpon>HostelDbDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="HostelDbDataSet7.xsc">
+      <DependentUpon>HostelDbDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="HostelDbDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HostelDbDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HostelDbDataSet7.xss">
+      <DependentUpon>HostelDbDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="HostelDbDataSet8.xsc">
+      <DependentUpon>HostelDbDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="HostelDbDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HostelDbDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HostelDbDataSet8.xss">
+      <DependentUpon>HostelDbDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="HostelDbDataSet9.xsc">
+      <DependentUpon>HostelDbDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="HostelDbDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HostelDbDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HostelDbDataSet9.xss">
+      <DependentUpon>HostelDbDataSet9.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -144,6 +318,28 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Roomnumberdataset.xsc">
+      <DependentUpon>Roomnumberdataset.xsd</DependentUpon>
+    </None>
+    <None Include="Roomnumberdataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Roomnumberdataset.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Roomnumberdataset.xss">
+      <DependentUpon>Roomnumberdataset.xsd</DependentUpon>
+    </None>
+    <None Include="RoomNumberDataset1.xsc">
+      <DependentUpon>RoomNumberDataset1.xsd</DependentUpon>
+    </None>
+    <None Include="RoomNumberDataset1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RoomNumberDataset1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RoomNumberDataset1.xss">
+      <DependentUpon>RoomNumberDataset1.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

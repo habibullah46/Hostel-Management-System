@@ -1,6 +1,6 @@
 ﻿namespace Hostel_MS
 {
-    partial class Student_Registration
+    partial class tbl_Student_Registration
     {
         /// <summary>
         /// Required designer variable.
@@ -28,73 +28,73 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Student_Registration));
-            this.button1 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(tbl_Student_Registration));
+            this.btn_save = new System.Windows.Forms.Button();
+            this.btn_clear = new System.Windows.Forms.Button();
+            this.txt_CNIC = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.txt_dateofbirth = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txt_fathername = new System.Windows.Forms.TextBox();
+            this.txt_bloodgroup = new System.Windows.Forms.TextBox();
+            this.txt_name = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.txt_address = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txt_Gnumber = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txt_Gname = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txt_class = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txt_mobile = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txt_Edu_institute = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.cmb_DateofRegistration = new System.Windows.Forms.DateTimePicker();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // btn_save
             // 
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.ImageKey = "(none)";
-            this.button1.Location = new System.Drawing.Point(32, 530);
-            this.button1.Name = "button1";
-            this.button1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.button1.Size = new System.Drawing.Size(140, 54);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Save";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_save.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_save.ImageKey = "(none)";
+            this.btn_save.Location = new System.Drawing.Point(32, 530);
+            this.btn_save.Name = "btn_save";
+            this.btn_save.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.btn_save.Size = new System.Drawing.Size(140, 54);
+            this.btn_save.TabIndex = 14;
+            this.btn_save.Text = "Save";
+            this.btn_save.UseVisualStyleBackColor = true;
+            this.btn_save.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button4
+            // btn_clear
             // 
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button4.Location = new System.Drawing.Point(240, 530);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(150, 54);
-            this.button4.TabIndex = 13;
-            this.button4.Text = "Clear";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btn_clear.Image = ((System.Drawing.Image)(resources.GetObject("btn_clear.Image")));
+            this.btn_clear.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_clear.Location = new System.Drawing.Point(240, 530);
+            this.btn_clear.Name = "btn_clear";
+            this.btn_clear.Size = new System.Drawing.Size(150, 54);
+            this.btn_clear.TabIndex = 13;
+            this.btn_clear.Text = "Clear";
+            this.btn_clear.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txt_CNIC
             // 
-            this.textBox1.Location = new System.Drawing.Point(192, 44);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(223, 26);
-            this.textBox1.TabIndex = 12;
+            this.txt_CNIC.Location = new System.Drawing.Point(192, 44);
+            this.txt_CNIC.Name = "txt_CNIC";
+            this.txt_CNIC.Size = new System.Drawing.Size(223, 26);
+            this.txt_CNIC.TabIndex = 12;
             // 
             // label2
             // 
@@ -138,15 +138,15 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.dateTimePicker1);
+            this.groupBox1.Controls.Add(this.txt_dateofbirth);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txt_fathername);
+            this.groupBox1.Controls.Add(this.txt_bloodgroup);
+            this.groupBox1.Controls.Add(this.txt_name);
+            this.groupBox1.Controls.Add(this.txt_CNIC);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Location = new System.Drawing.Point(12, 156);
             this.groupBox1.Name = "groupBox1";
@@ -155,12 +155,12 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Student Bio Data";
             // 
-            // dateTimePicker1
+            // txt_dateofbirth
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(192, 143);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(223, 26);
-            this.dateTimePicker1.TabIndex = 25;
+            this.txt_dateofbirth.Location = new System.Drawing.Point(192, 143);
+            this.txt_dateofbirth.Name = "txt_dateofbirth";
+            this.txt_dateofbirth.Size = new System.Drawing.Size(223, 26);
+            this.txt_dateofbirth.TabIndex = 25;
             // 
             // label6
             // 
@@ -202,40 +202,40 @@
             this.label3.TabIndex = 21;
             this.label3.Text = "Name:";
             // 
-            // textBox5
+            // txt_fathername
             // 
-            this.textBox5.Location = new System.Drawing.Point(192, 246);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(223, 26);
-            this.textBox5.TabIndex = 20;
+            this.txt_fathername.Location = new System.Drawing.Point(192, 246);
+            this.txt_fathername.Name = "txt_fathername";
+            this.txt_fathername.Size = new System.Drawing.Size(223, 26);
+            this.txt_fathername.TabIndex = 20;
             // 
-            // textBox4
+            // txt_bloodgroup
             // 
-            this.textBox4.Location = new System.Drawing.Point(192, 193);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(223, 26);
-            this.textBox4.TabIndex = 18;
+            this.txt_bloodgroup.Location = new System.Drawing.Point(192, 193);
+            this.txt_bloodgroup.Name = "txt_bloodgroup";
+            this.txt_bloodgroup.Size = new System.Drawing.Size(223, 26);
+            this.txt_bloodgroup.TabIndex = 18;
             // 
-            // textBox2
+            // txt_name
             // 
-            this.textBox2.Location = new System.Drawing.Point(192, 96);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(223, 26);
-            this.textBox2.TabIndex = 14;
+            this.txt_name.Location = new System.Drawing.Point(192, 96);
+            this.txt_name.Name = "txt_name";
+            this.txt_name.Size = new System.Drawing.Size(223, 26);
+            this.txt_name.TabIndex = 14;
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.textBox10);
+            this.groupBox2.Controls.Add(this.txt_address);
             this.groupBox2.Controls.Add(this.label12);
-            this.groupBox2.Controls.Add(this.textBox9);
+            this.groupBox2.Controls.Add(this.txt_Gnumber);
             this.groupBox2.Controls.Add(this.label11);
-            this.groupBox2.Controls.Add(this.textBox8);
+            this.groupBox2.Controls.Add(this.txt_Gname);
             this.groupBox2.Controls.Add(this.label10);
-            this.groupBox2.Controls.Add(this.textBox7);
+            this.groupBox2.Controls.Add(this.txt_class);
             this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Controls.Add(this.textBox6);
+            this.groupBox2.Controls.Add(this.txt_mobile);
             this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Controls.Add(this.textBox3);
+            this.groupBox2.Controls.Add(this.txt_Edu_institute);
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Location = new System.Drawing.Point(542, 156);
             this.groupBox2.Name = "groupBox2";
@@ -244,13 +244,13 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Contact Information";
             // 
-            // textBox10
+            // txt_address
             // 
-            this.textBox10.Location = new System.Drawing.Point(225, 265);
-            this.textBox10.Multiline = true;
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(284, 163);
-            this.textBox10.TabIndex = 24;
+            this.txt_address.Location = new System.Drawing.Point(225, 265);
+            this.txt_address.Multiline = true;
+            this.txt_address.Name = "txt_address";
+            this.txt_address.Size = new System.Drawing.Size(284, 163);
+            this.txt_address.TabIndex = 24;
             // 
             // label12
             // 
@@ -262,12 +262,12 @@
             this.label12.TabIndex = 23;
             this.label12.Text = "Address:";
             // 
-            // textBox9
+            // txt_Gnumber
             // 
-            this.textBox9.Location = new System.Drawing.Point(257, 220);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(223, 26);
-            this.textBox9.TabIndex = 22;
+            this.txt_Gnumber.Location = new System.Drawing.Point(257, 220);
+            this.txt_Gnumber.Name = "txt_Gnumber";
+            this.txt_Gnumber.Size = new System.Drawing.Size(223, 26);
+            this.txt_Gnumber.TabIndex = 22;
             // 
             // label11
             // 
@@ -279,12 +279,12 @@
             this.label11.TabIndex = 21;
             this.label11.Text = "Guardian Number:";
             // 
-            // textBox8
+            // txt_Gname
             // 
-            this.textBox8.Location = new System.Drawing.Point(257, 175);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(223, 26);
-            this.textBox8.TabIndex = 20;
+            this.txt_Gname.Location = new System.Drawing.Point(257, 175);
+            this.txt_Gname.Name = "txt_Gname";
+            this.txt_Gname.Size = new System.Drawing.Size(223, 26);
+            this.txt_Gname.TabIndex = 20;
             // 
             // label10
             // 
@@ -296,12 +296,12 @@
             this.label10.TabIndex = 19;
             this.label10.Text = "Guardian Name:";
             // 
-            // textBox7
+            // txt_class
             // 
-            this.textBox7.Location = new System.Drawing.Point(257, 132);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(223, 26);
-            this.textBox7.TabIndex = 18;
+            this.txt_class.Location = new System.Drawing.Point(257, 132);
+            this.txt_class.Name = "txt_class";
+            this.txt_class.Size = new System.Drawing.Size(223, 26);
+            this.txt_class.TabIndex = 18;
             // 
             // label9
             // 
@@ -313,12 +313,12 @@
             this.label9.TabIndex = 17;
             this.label9.Text = "Class:";
             // 
-            // textBox6
+            // txt_mobile
             // 
-            this.textBox6.Location = new System.Drawing.Point(257, 44);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(223, 26);
-            this.textBox6.TabIndex = 16;
+            this.txt_mobile.Location = new System.Drawing.Point(257, 44);
+            this.txt_mobile.Name = "txt_mobile";
+            this.txt_mobile.Size = new System.Drawing.Size(223, 26);
+            this.txt_mobile.TabIndex = 16;
             // 
             // label8
             // 
@@ -330,12 +330,12 @@
             this.label8.TabIndex = 15;
             this.label8.Text = "Mobile:";
             // 
-            // textBox3
+            // txt_Edu_institute
             // 
-            this.textBox3.Location = new System.Drawing.Point(257, 90);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(223, 26);
-            this.textBox3.TabIndex = 14;
+            this.txt_Edu_institute.Location = new System.Drawing.Point(257, 90);
+            this.txt_Edu_institute.Name = "txt_Edu_institute";
+            this.txt_Edu_institute.Size = new System.Drawing.Size(223, 26);
+            this.txt_Edu_institute.TabIndex = 14;
             // 
             // label7
             // 
@@ -357,30 +357,30 @@
             this.label13.TabIndex = 26;
             this.label13.Text = "Date of Registration:";
             // 
-            // dateTimePicker2
+            // cmb_DateofRegistration
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(204, 466);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(223, 26);
-            this.dateTimePicker2.TabIndex = 28;
+            this.cmb_DateofRegistration.Location = new System.Drawing.Point(204, 466);
+            this.cmb_DateofRegistration.Name = "cmb_DateofRegistration";
+            this.cmb_DateofRegistration.Size = new System.Drawing.Size(223, 26);
+            this.cmb_DateofRegistration.TabIndex = 28;
             // 
-            // Student_Registration
+            // tbl_Student_Registration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1081, 680);
-            this.Controls.Add(this.dateTimePicker2);
+            this.Controls.Add(this.cmb_DateofRegistration);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.btn_save);
+            this.Controls.Add(this.btn_clear);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1103, 736);
             this.MinimumSize = new System.Drawing.Size(1103, 736);
-            this.Name = "Student_Registration";
+            this.Name = "tbl_Student_Registration";
             this.Text = "Register Student";
             this.Load += new System.EventHandler(this.Student_Registration_Load);
             this.panel1.ResumeLayout(false);
@@ -396,36 +396,36 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btn_save;
+        private System.Windows.Forms.Button btn_clear;
+        private System.Windows.Forms.TextBox txt_CNIC;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker txt_dateofbirth;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txt_fathername;
+        private System.Windows.Forms.TextBox txt_bloodgroup;
+        private System.Windows.Forms.TextBox txt_name;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox txt_address;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txt_Gnumber;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox txt_Gname;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txt_class;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txt_mobile;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txt_Edu_institute;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker cmb_DateofRegistration;
     }
 }

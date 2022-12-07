@@ -8,7 +8,6 @@ C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Host
 C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Hostel MS.csproj.CoreCompileInputs.cache
 C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Hostel MS.exe
 C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Hostel MS.pdb
-C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Hostel_MS.Student_Registration.resources
 C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Hostel_MS.Template.resources
 C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Hostel_MS.Room.resources
 C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Hostel_MS.Assign_Room.resources
@@ -16,3 +15,4 @@ C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Host
 C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Hostel_MS.Login.resources
 C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Hostel_MS.Register_New_Staff.resources
 C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Hostel_MS.Visitor_Entry.resources
+C:\Users\TIME COMPUTER\Desktop\Hostel-Management-System\Hostel MS\obj\Debug\Hostel_MS.tbl_Student_Registration.resources
